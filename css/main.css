@@ -1,0 +1,99 @@
+body {
+font-family: 'Comfortaa';
+background-image: url("../image/fond1.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+
+header{
+  background-color: #e6e7e8;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+position: relative;
+}
+
+.fond img {
+  position: fixed;
+
+}
+
+.pleinecran img{
+  width: 5%;
+  position: fixed;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.fermer img{
+  width: 5%;
+position: absolute;
+  margin-right: 500px;
+  margin-top: 30px;
+}
+
+
+.logo img {
+  width: 20%;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 40%;
+  justify-content: space-around;
+  padding-left: 0;
+
+}
+
+.menu a {
+/*  padding-left: 150px;
+  padding-right: 150px;*/
+}
+
+.navigation{
+  padding: 40px;
+}
+
+.carousel-inner {
+  border-radius: 60px;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+position: relative;
+}
+
+h6{
+font-size: 10px;
+}
+
+footer {
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #20487b;
+    color: white;
+    text-align: left;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 20px;
+
+  }
+
+@media (max-width: 640px)  {
+  .menu ul {
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-around;
+    padding-left: 0;
+
+  }
+}
